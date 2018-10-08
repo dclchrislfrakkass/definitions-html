@@ -20,9 +20,9 @@ header h1 {
 }
 /*modifie le bloc centrale avec une taille mini de 500 px */
 section {
-    min-height: 500px;
+    background-color: #CCCCCC;
+    min-height: 400px;
     margin-top: 20px;
-    background-color: #CCCCCC ;
     border-radius: 20px;
     margin-bottom: 20px;
     padding: 15px;
@@ -34,6 +34,9 @@ footer {
     border-radius: 20px;
     padding: 15px;
 }
+h1 {
+    font-size: 26px;
+}
 img {
     width: 10%;
     height: auto;
@@ -41,6 +44,24 @@ img {
 th {
     text-align: left;
     color: white;
+}
+/* modifie la zone de définition */
+.definition {
+    float: left;
+    text-align: left;
+    min-width: 100px;
+    max-width: 40%;
+    border-right: solid;
+    border-right-color: blue;
+    border-right-width: 3px;
+    min-height: 400px;
+}
+/* modifie la zone exemple */
+.exemple {
+    float: center;
+    text-align: left;
+    min-width: 200px;
+    max-width: 50%;
 }
 
 /* by Sicca & Sifu */
@@ -50,24 +71,7 @@ header a:link {
     color: blue;
 }
 
-<<<<<<< HEAD
-header a:visited {
-    color: purple;
-}
-
-header a:hover {
-    background: yellow;
-}
-
-header a:active {
-    color: red;
-}
-
-header p:active {
-    background: #EEE;
-=======
 a:active {
     background-color: darkslategray;
     color: white;
->>>>>>> 4b5a51959972d8df8d6771a765c1f71aec15e4c2
 }
