@@ -59,7 +59,7 @@ th {
 /* modifie la zone exemple */
 .exemple {
     float: center;
-    text-align: left;
+    text-align:left;
     min-width: 200px;
     max-width: 50%;
 }
