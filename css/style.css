@@ -17,3 +17,14 @@ footer {
 
     
 }
+
+/* By Sicca & Sifu */
+/* Modifie menu en rollhover */
+
+a:hover {
+    background-color: darkslategray;
+    color: white;
+}
+a:active{
+    background-color: darkslategray;
+}
