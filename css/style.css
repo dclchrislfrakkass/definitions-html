@@ -1,0 +1,19 @@
+/* Css sur toute la page */
+html {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* modifie le bloc du haut */
+header {
+    background-color: #999999 ;
+    border-radius: 20px;
+}
+/*modifie le bloc centrale */
+body {
+
+}
+/* modifie le footer */
+footer {
+
+    
+}
