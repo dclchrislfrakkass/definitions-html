@@ -2,29 +2,45 @@
 html {
     margin-left: 10px;
     margin-right: 10px;
+    background-color: white;
 }
 /* modifie le bloc du haut */
 header {
-    background-color: #999999 ;
+    background-color: #CCCCCC ;
     border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: center;
+}
+header h1 {
+    text-align: left;
 }
 /*modifie le bloc centrale */
-body {
+section {
+    margin-top: 20px;
+    background-color: #CCCCCC ;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
 
 }
 /* modifie le footer */
 footer {
-
-    
+    margin-top: 20px;
+    background-color: #CCCCCC ;
+    border-radius: 20px;
+    padding: 15px;
 }
 
-/* By Sicca & Sifu */
-/* Modifie menu en rollhover */
+/* by Sicca & Sifu */
+/* menu rollhover */
 
 a:hover {
     background-color: darkslategray;
     color: white;
 }
-a:active{
+
+a:active {
     background-color: darkslategray;
+    color: white;
 }
