@@ -3,26 +3,29 @@ html {
     margin-left: 10px;
     margin-right: 10px;
     background-color: white;
+    font-family: 'Exo', sans-serif;
 }
 /* modifie le bloc du haut */
 header {
+    
     background-color: #CCCCCC ;
     border-radius: 20px;
     margin-bottom: 20px;
     padding: 15px;
     text-align: center;
 }
+/* centre le texte d'accueil et l'image home */
 header h1 {
     text-align: left;
 }
-/*modifie le bloc centrale */
+/*modifie le bloc centrale avec une taille mini de 500 px */
 section {
+    min-height: 500px;
     margin-top: 20px;
     background-color: #CCCCCC ;
     border-radius: 20px;
     margin-bottom: 20px;
     padding: 15px;
-
 }
 /* modifie le footer */
 footer {
@@ -30,6 +33,14 @@ footer {
     background-color: #CCCCCC ;
     border-radius: 20px;
     padding: 15px;
+}
+img {
+    width: 10%;
+    height: auto;
+}
+th {
+    text-align: left;
+    color: white;
 }
 
 /* by Sicca & Sifu */
@@ -39,6 +50,7 @@ header a:link {
     color: blue;
 }
 
+<<<<<<< HEAD
 header a:visited {
     color: purple;
 }
@@ -53,4 +65,9 @@ header a:active {
 
 header p:active {
     background: #EEE;
+=======
+a:active {
+    background-color: darkslategray;
+    color: white;
+>>>>>>> 4b5a51959972d8df8d6771a765c1f71aec15e4c2
 }
