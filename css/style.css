@@ -35,12 +35,22 @@ footer {
 /* by Sicca & Sifu */
 /* menu rollhover */
 
-a:hover {
-    background-color: darkslategray;
-    color: white;
+header a:link {
+    color: blue;
 }
 
-a:active {
-    background-color: darkslategray;
-    color: white;
+header a:visited {
+    color: purple;
+}
+
+header a:hover {
+    background: yellow;
+}
+
+header a:active {
+    color: red;
+}
+
+header p:active {
+    background: #EEE;
 }
