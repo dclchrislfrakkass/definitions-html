@@ -17,6 +17,9 @@ header {
 /* centre le texte d'accueil et l'image home */
 header h1 {
     text-align: left;
+/* Sicc  & SIfu */
+    color:darkslategray;
+
 }
 /*modifie le bloc centrale avec une taille mini de 500 px */
 section {
@@ -46,22 +49,50 @@ th {
 /* by Sicca & Sifu */
 /* menu rollhover */
 
-header a:link {
-    color: blue;
+/* header a:link {
+    color: black;
     }
     
 header a:visited {
-    color: purple;
+    color: black;
     }
     
 header a:hover {
-    background: yellow;
+    background: darkslategray;
     }
     
 header a:active {
     color: red;
     }
     
-header p:active {
-    background: #EEE;
-    }
+/* Styles pour la rubrique en cours */
+/* #en-cours a { 
+	background-color: darkslategray;
+	color:white;
+} */
+
+/* Styles pour tous les liens du menu */
+#navigation a {
+	padding: 8px 8px 8px 8px; 
+	font-weight: bold;
+	text-decoration: none;
+	color: #666;
+}
+
+/* Styles pour les liens survolés ou sélectionnés au clavier*/
+#navigation a:hover, #navigation a:focus {
+    text-decoration: underline;
+    background-color: darkgrey;
+	color: darkslategray;
+}
+
+/* Styles pour la rubrique en cours */
+#navigation #en-cours a {
+	background-color: darkslategray;
+	color: #fff;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
