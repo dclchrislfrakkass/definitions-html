@@ -34,41 +34,14 @@ footer {
     border-radius: 20px;
     padding: 15px;
 }
-<<<<<<< HEAD
-img{
+img {
     width: 10%;
     height: auto;
 }
-article {
-    text-align: right;
-}
-tr {
+th {
     text-align: left;
-    font-style: italic;
-}
-tr th {
     color: white;
 }
-header a:link {
-    color: blue;
-    }
-    
-    header a:visited {
-    color: purple;
-    }
-    
-    header a:hover {
-    background: yellow;
-    }
-    
-    header a:active {
-    color: red;
-    }
-    
-    header p:active {
-    background: #EEE;
-    }
-=======
 
 /* by Sicca & Sifu */
 /* menu rollhover */
@@ -82,4 +55,3 @@ a:active {
     background-color: darkslategray;
     color: white;
 }
->>>>>>> 4fef126251f7ce9fc3c26becaf54a958127dbc5b
