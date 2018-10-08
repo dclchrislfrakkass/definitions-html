@@ -34,6 +34,7 @@ footer {
     border-radius: 20px;
     padding: 15px;
 }
+<<<<<<< HEAD
 img{
     width: 10%;
     height: auto;
@@ -67,3 +68,18 @@ header a:link {
     header p:active {
     background: #EEE;
     }
+=======
+
+/* by Sicca & Sifu */
+/* menu rollhover */
+
+a:hover {
+    background-color: darkslategray;
+    color: white;
+}
+
+a:active {
+    background-color: darkslategray;
+    color: white;
+}
+>>>>>>> 4fef126251f7ce9fc3c26becaf54a958127dbc5b
