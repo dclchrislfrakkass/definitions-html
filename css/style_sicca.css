@@ -17,12 +17,15 @@ header {
 /* centre le texte d'accueil et l'image home */
 header h1 {
     text-align: left;
+/* Sicc  & SIfu */
+    color:darkslategray;
+
 }
 /*modifie le bloc centrale avec une taille mini de 500 px */
 section {
-    background-color: #CCCCCC;
-    min-height: 400px;
+    min-height: 500px;
     margin-top: 20px;
+    background-color: #CCCCCC ;
     border-radius: 20px;
     margin-bottom: 20px;
     padding: 15px;
@@ -34,9 +37,6 @@ footer {
     border-radius: 20px;
     padding: 15px;
 }
-h1 {
-    font-size: 26px;
-}
 img {
     width: 10%;
     height: auto;
@@ -44,24 +44,6 @@ img {
 th {
     text-align: left;
     color: white;
-}
-/* modifie la zone de définition */
-.definition {
-    float: left;
-    text-align: left;
-    min-width: 100px;
-    max-width: 40%;
-    border-right: solid;
-    border-right-color: blue;
-    border-right-width: 3px;
-    min-height: 400px;
-}
-/* modifie la zone exemple */
-.exemple {
-    float: center;
-    text-align: left;
-    min-width: 200px;
-    max-width: 50%;
 }
 
 /* Styles pour tous les liens du menu */
