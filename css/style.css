@@ -46,12 +46,28 @@ th {
 /* by Sicca & Sifu */
 /* menu rollhover */
 
-a:hover {
-    background-color: darkslategray;
-    color: white;
+header a:link {
+    color: blue;
 }
 
+<<<<<<< HEAD
+header a:visited {
+    color: purple;
+}
+
+header a:hover {
+    background: yellow;
+}
+
+header a:active {
+    color: red;
+}
+
+header p:active {
+    background: #EEE;
+=======
 a:active {
     background-color: darkslategray;
     color: white;
+>>>>>>> 4b5a51959972d8df8d6771a765c1f71aec15e4c2
 }
