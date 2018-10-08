@@ -46,31 +46,6 @@ th {
     color: white;
 }
 
-/* by Sicca & Sifu */
-/* menu rollhover */
-
-/* header a:link {
-    color: black;
-    }
-    
-header a:visited {
-    color: black;
-    }
-    
-header a:hover {
-    background: darkslategray;
-    }
-    
-header a:active {
-    color: red;
-    }
-    
-/* Styles pour la rubrique en cours */
-/* #en-cours a { 
-	background-color: darkslategray;
-	color:white;
-} */
-
 /* Styles pour tous les liens du menu */
 #navigation a {
 	padding: 8px 8px 8px 8px; 

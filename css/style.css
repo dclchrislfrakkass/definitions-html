@@ -64,34 +64,28 @@ th {
     max-width: 50%;
 }
 
-/* by Sicca & Sifu */
-/* menu rollhover */
-
-header a:link {
-    color: blue;
-<<<<<<< HEAD
-    }
-    
-header a:visited {
-    color: purple;
-    }
-    
-header a:hover {
-    background: yellow;
-    }
-    
-header a:active {
-    color: red;
-    }
-    
-header p:active {
-    background: #EEE;
-    }
-=======
+/* Styles pour tous les liens du menu */
+#navigation a {
+	padding: 8px 8px 8px 8px; 
+	font-weight: bold;
+	text-decoration: none;
+	color: #666;
 }
 
-a:active {
-    background-color: darkslategray;
-    color: white;
+/* Styles pour les liens survolés ou sélectionnés au clavier*/
+#navigation a:hover, #navigation a:focus {
+    text-decoration: underline;
+    background-color: darkgrey;
+	color: darkslategray;
 }
->>>>>>> 629218dc3737b66b6fd63e1353812b657802f44f
+
+/* Styles pour la rubrique en cours */
+#navigation #en-cours a {
+	background-color: darkslategray;
+	color: #fff;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
