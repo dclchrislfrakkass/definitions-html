@@ -15,7 +15,7 @@ header {
     text-align: center;
 }
 /* centre le texte d'accueil et l'image home */
-header h1{
+header h1 {
     text-align: left;
 }
 /*modifie le bloc centrale avec une taille mini de 500 px */
